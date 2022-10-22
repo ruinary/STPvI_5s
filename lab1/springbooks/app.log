@@ -1,0 +1,21 @@
+"2021-10-21 09:46:09 [restartedMain] INFO  $logger{36} - Starting SpringbooksApplication using Java 11.0.11 on DESKTOP-O5NDN68 with PID 1504 (F:\5sem\Java_5sem\springbooks\target\classes started by Настя in F:\5sem\Java_5sem\springbooks)
+""2021-10-21 09:46:09 [restartedMain] INFO  $logger{36} - No active profile set, falling back to default profiles: default
+""2021-10-21 09:46:09 [restartedMain] INFO  $logger{36} - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2021-10-21 09:46:09 [restartedMain] INFO  $logger{36} - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2021-10-21 09:46:12 [restartedMain] INFO  $logger{36} - Tomcat initialized with port(s): 8080 (http)
+""2021-10-21 09:46:12 [restartedMain] INFO  $logger{36} - Starting service [Tomcat]
+""2021-10-21 09:46:12 [restartedMain] INFO  $logger{36} - Starting Servlet engine: [Apache Tomcat/9.0.52]
+""2021-10-21 09:46:12 [restartedMain] INFO  $logger{36} - Initializing Spring embedded WebApplicationContext
+""2021-10-21 09:46:12 [restartedMain] INFO  $logger{36} - Root WebApplicationContext: initialization completed in 3021 ms
+""2021-10-21 09:46:13 [restartedMain] WARN  $logger{36} - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+""2021-10-21 09:46:13 [restartedMain] INFO  $logger{36} - Adding welcome page template: index
+""2021-10-21 09:46:14 [restartedMain] INFO  $logger{36} - LiveReload server is running on port 35729
+""2021-10-21 09:46:14 [restartedMain] INFO  $logger{36} - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-10-21 09:46:14 [restartedMain] INFO  $logger{36} - Started SpringbooksApplication in 5.358 seconds (JVM running for 7.378)
+""2021-10-21 09:46:15 [http-nio-8080-exec-1] INFO  $logger{36} - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-10-21 09:46:15 [http-nio-8080-exec-1] INFO  $logger{36} - /index was called
+""2021-10-21 09:46:19 [http-nio-8080-exec-6] INFO  $logger{36} - /allfilms was called
+""2021-10-21 09:46:21 [http-nio-8080-exec-8] INFO  $logger{36} - /addfilm was called
+""2021-10-21 09:46:28 [http-nio-8080-exec-2] INFO  $logger{36} - /updatefilm was called
+""2021-10-21 09:46:38 [http-nio-8080-exec-6] INFO  $logger{36} - /deletefilm was called
+"

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete person</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<div class="container">
+    <h1>Delete person:</h1>
+    <form th:action="@{/deleteperson}"
+          th:object="${personform}" method="POST">
+        <p>Id:
+            <input type="number" min="0" max="6" th:field="*{id}"/>
+        </p>
+        <input class="button-main-page" type="submit" value="Delete"/>
+    </form>
+</div>
+<div th:if="${errorMessage}" th:utext="${errorMessage}"
+     style="color: red; font-style: italic;">
+</div>
+</body>
+</html>

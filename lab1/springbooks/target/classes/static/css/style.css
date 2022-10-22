@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body,input,button{
+    font-family: monospace;
+    font-weight: 500;
+    color: #f8faef;
+    background-color:#f7943c;
+    text-align: center;
+}
+input {
+    border: 1px solid #f8faef;
+    border-radius: 20px;
+}
+table {
+    margin: auto;
+    border: 1px solid #f8faef;font-size: 20px;
+}
+td,th{
+    border: none;
+    paddindg: 5px;
+}
+h1 {
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    color:#f8faef;
+}
+
+h2{
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    display: block;
+    color:#f8faef;
+}
+h2 a{
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#f8faef;
+    text-decoration: none;
+}
